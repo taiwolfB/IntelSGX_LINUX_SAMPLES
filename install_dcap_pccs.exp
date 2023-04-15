@@ -14,7 +14,7 @@ expect "Enter your https proxy server address, e.g. http://proxy-server:port"
 send -- "\n"
 
 expect "Do you want to configure PCCS now?"
-send -- "yes"
+send -- "Y\r"
 
 expect "Set HTTPS listening port"
 send -- "8081\n"
