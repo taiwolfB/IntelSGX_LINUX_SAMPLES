@@ -4,12 +4,6 @@ set timeout -1
 
 spawn sudo apt-get install sgx-dcap-pccs
 
-expect "Do you want to continue?"
-send --yes"
-
-expect "Do you want to install PCCS now? (Y/N)"
-send -- "Y\r"
-
 expect "Do you want to install PCCS now? (Y/N)"
 send -- "Y\r"
 
